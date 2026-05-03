@@ -1,6 +1,6 @@
-<![CDATA[---
+---
 title: Dashboard with Stats & Quick Links
-status: todo
+status: done
 priority: high
 type: feature
 tags: [dashboard, stats, widgets]
@@ -13,12 +13,12 @@ position: 2
 Build the main dashboard landing page showing BoL (Bill of Lading) statistics for current month with icon indicators for different modes (Air Export, Air Import, Sea Export, Sea Import) and a Quick Links panel for common operations.
 
 ## Checklist
-- [ ] Create Dashboard page as index.tsx
-- [ ] Create StatCard component for BoL counts with icons (plane/ship icons)
-- [ ] Display 4 stat cards: Air Export, Air Import, Sea Export, Sea Import
-- [ ] Create QuickLinks panel with 8 common operation buttons
-- [ ] Add chart component showing "Total BoL Count (Last 6 Months)" with sample data
-- [ ] Add "Show Data For" filter dropdown (Import Air, Import Sea, Export options)
+- [x] Create Dashboard page as index.tsx
+- [x] Create StatCard component for BoL counts with icons (plane/ship icons)
+- [x] Display 4 stat cards: Air Export, Air Import, Sea Export, Sea Import
+- [x] Create QuickLinks panel with 8 common operation buttons
+- [x] Add chart component showing "Total BoL Count (Last 6 Months)" with sample data
+- [x] Add "Show Data For" filter dropdown (Import Air, Import Sea, Export options)
 
 ## Acceptance
 - Dashboard displays 4 circular stat badges showing BoL counts (currently 0)
