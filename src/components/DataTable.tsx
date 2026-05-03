@@ -1,11 +1,11 @@
 import { ReactNode, useState } from "react";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Search, Download, Filter, Plus, ChevronLeft, ChevronRight } from "lucide-react";
-import { cn } from "@/lib/utils";
 import { Card, CardContent } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Plus, Filter, Download, ChevronLeft, ChevronRight } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface Column {
   key: string;
@@ -21,6 +21,7 @@ interface DataTableProps<T extends Record<string, any>> {
   searchPlaceholder?: string;
   onAdd?: () => void;
   addButtonLabel?: string;
+  onRowClick?: (row: T) => void;
 }
 
 export function DataTable<T extends Record<string, any>>({
@@ -31,6 +32,7 @@ export function DataTable<T extends Record<string, any>>({
   searchPlaceholder = "Search...",
   onAdd,
   addButtonLabel = "Add New",
+  onRowClick,
 }: DataTableProps<T>) {
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -95,7 +97,11 @@ export function DataTable<T extends Record<string, any>>({
                 </TableRow>
               ) : (
                 filteredData.map((row, index) => (
-                  <TableRow key={index} className="hover:bg-muted/50">
+                  <TableRow 
+                    key={index} 
+                    className="hover:bg-muted/50 cursor-pointer"
+                    onClick={() => onRowClick?.(row)}
+                  >
                     {columns.map((column) => (
                       <TableCell key={column.key} className="py-2.5 text-xs">
                         {formatCellValue(row[column.key], column.key)}
