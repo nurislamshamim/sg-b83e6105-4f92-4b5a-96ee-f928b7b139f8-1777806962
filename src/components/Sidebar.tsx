@@ -160,7 +160,7 @@ export function Sidebar({ onNavClick, activeNav }: SidebarProps) {
             alt="Trans Link Solution Ltd" 
             width={120}
             height={40}
-            className="w-full h-auto"
+            className="w-full h-auto brightness-0 invert"
             priority
           />
         </Link>
