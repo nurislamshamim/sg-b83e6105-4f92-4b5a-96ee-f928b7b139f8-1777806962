@@ -1,6 +1,6 @@
 ---
 title: Core Layout & Navigation System
-status: in_progress
+status: done
 priority: urgent
 type: feature
 tags: [layout, navigation, sidebar]
@@ -18,7 +18,7 @@ Implement TrackingTime's three-panel navigation system: left sidebar with main m
 - [x] Create SecondaryPanel component that shows submenu when clicking nav items
 - [x] Create Layout wrapper combining sidebar + secondary panel + content area
 - [x] Add expand/collapse behavior for secondary panel
-- [ ] Implement responsive behavior (collapse panels on mobile)
+- [x] Implement responsive behavior (collapse panels on mobile)
 
 ## Acceptance
 - Sidebar shows dark navy background with icon-based navigation

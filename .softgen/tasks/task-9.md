@@ -1,6 +1,6 @@
 ---
 title: Accounts Module
-status: in_progress
+status: done
 priority: medium
 type: feature
 tags: [accounts, finance]
@@ -14,9 +14,9 @@ Create Accounts module with financial tracking pages including bank book, consig
 
 ## Checklist
 - [x] Create Bank Book page with transaction ledger
-- [ ] Create Consignee Details page with account balances
-- [ ] Create Income Statement page with revenue/expense breakdown
-- [ ] Create Balance Sheet page with assets/liabilities
+- [x] Create Consignee Details page with account balances
+- [x] Create Income Statement page with revenue/expense breakdown
+- [x] Create Balance Sheet page with assets/liabilities
 
 ## Acceptance
 - All accounts pages accessible from secondary panel

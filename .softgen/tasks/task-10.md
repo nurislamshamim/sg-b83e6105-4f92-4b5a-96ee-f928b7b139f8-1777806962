@@ -1,6 +1,6 @@
 ---
 title: Reports & Sales Modules
-status: in_progress
+status: done
 priority: low
 type: feature
 tags: [reports, sales]
@@ -14,13 +14,13 @@ Build Reports module for analytics and Sales module for customer/sales managemen
 
 ## Checklist
 - [x] Create Shipment Reports page
-- [ ] Create Invoice Reports page
-- [ ] Create Financial Reports page
-- [ ] Create Custom Reports builder
-- [ ] Create Sales Dashboard
+- [x] Create Invoice Reports page
+- [x] Create Financial Reports page
+- [x] Create Custom Reports builder
+- [x] Create Sales Dashboard
 - [x] Create Customer Management page
-- [ ] Create Quotations page
-- [ ] Create Sales Orders page
+- [x] Create Quotations page
+- [x] Create Sales Orders page
 
 ## Acceptance
 - Report pages show data visualizations and export options

@@ -1,6 +1,6 @@
 ---
 title: Configuration Module
-status: in_progress
+status: done
 priority: medium
 type: feature
 tags: [configuration, settings]
@@ -13,13 +13,13 @@ position: 8
 Build Configuration module for managing system settings, master data like banks, agents, container types, locations, etc.
 
 ## Checklist
-- [ ] Create Bank VAT Registrations page
+- [x] Create Bank VAT Registrations page
 - [x] Create Container Types management page
-- [ ] Create Freight Forwarders list page
-- [ ] Create Consignee List page
-- [ ] Create C&F Agents page
-- [ ] Create Locations management page
-- [ ] Create Delivery Agents page
+- [x] Create Freight Forwarders list page
+- [x] Create Consignee List page
+- [x] Create C&F Agents page
+- [x] Create Locations management page
+- [x] Create Delivery Agents page
 
 ## Acceptance
 - All configuration pages accessible from secondary panel
