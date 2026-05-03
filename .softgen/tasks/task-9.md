@@ -1,6 +1,6 @@
 ---
 title: Accounts Module
-status: todo
+status: in_progress
 priority: medium
 type: feature
 tags: [accounts, finance]
@@ -13,7 +13,7 @@ position: 9
 Create Accounts module with financial tracking pages including bank book, consignee details, and financial statements.
 
 ## Checklist
-- [ ] Create Bank Book page with transaction ledger
+- [x] Create Bank Book page with transaction ledger
 - [ ] Create Consignee Details page with account balances
 - [ ] Create Income Statement page with revenue/expense breakdown
 - [ ] Create Balance Sheet page with assets/liabilities

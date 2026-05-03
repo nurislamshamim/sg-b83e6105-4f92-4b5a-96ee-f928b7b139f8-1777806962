@@ -1,6 +1,6 @@
 ---
 title: Configuration Module
-status: todo
+status: in_progress
 priority: medium
 type: feature
 tags: [configuration, settings]
@@ -14,7 +14,7 @@ Build Configuration module for managing system settings, master data like banks,
 
 ## Checklist
 - [ ] Create Bank VAT Registrations page
-- [ ] Create Container Types management page
+- [x] Create Container Types management page
 - [ ] Create Freight Forwarders list page
 - [ ] Create Consignee List page
 - [ ] Create C&F Agents page

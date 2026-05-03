@@ -1,6 +1,6 @@
 ---
 title: Modal Forms & Detail Views
-status: in_progress
+status: done
 priority: high
 type: feature
 tags: [forms, modals, ui]
@@ -13,12 +13,12 @@ position: 6
 Create reusable modal forms for adding/editing records across Import and Export modules, plus detailed shipment view for tracking information.
 
 ## Checklist
-- [ ] Create AddMasterBLModal component for Master B/L entry
-- [ ] Create AddHouseBLModal component for House B/L entry
-- [ ] Create AddBookingModal for E-Booking entry
-- [ ] Create ShipmentDetailView component showing full shipment info
-- [ ] Integrate modals into existing Import/Export data tables
-- [ ] Add form validation and error handling
+- [x] Create AddMasterBLModal component for Master B/L entry
+- [x] Create AddHouseBLModal component for House B/L entry
+- [x] Create AddBookingModal for E-Booking entry
+- [x] Create ShipmentDetailView component showing full shipment info
+- [x] Integrate modals into existing Import/Export data tables
+- [x] Add form validation and error handling
 
 ## Acceptance
 - Clicking "Add New" opens modal with form

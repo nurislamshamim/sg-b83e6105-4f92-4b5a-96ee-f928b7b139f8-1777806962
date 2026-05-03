@@ -1,6 +1,6 @@
 ---
 title: Invoicing Module
-status: todo
+status: in_progress
 priority: medium
 type: feature
 tags: [invoicing, billing]
@@ -13,7 +13,7 @@ position: 7
 Build comprehensive Invoicing module with invoice lists by mode (Sea/Air) and direction (Import/Export), plus Freight Certificates.
 
 ## Checklist
-- [ ] Create Invoice List (Import Sea) page
+- [x] Create Invoice List (Import Sea) page
 - [ ] Create Invoice List (Import Air) page
 - [ ] Create Invoice List (Export Sea) page
 - [ ] Create Invoice List (Export Air) page
