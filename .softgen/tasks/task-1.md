@@ -10,18 +10,18 @@ position: 1
 ---
 
 ## Notes
-Implement the dual navigation system combining TrackingTime's sidebar with the logistics platform's horizontal menu bar. This is the foundation that all other modules will build upon.
+Implement TrackingTime's three-panel navigation system: left sidebar with main modules, expandable secondary panel for submenus, and main content area.
 
 ## Checklist
 - [x] Set up design system in globals.css and tailwind.config.ts
-- [x] Create Sidebar component with collapsible navigation (Hours, Work, Reports sections)
-- [x] Create HorizontalMenu component with 9 modules (Dashboard, Import, Export, Invoicing, Configuration, Accounts, Reports, Sales Module, Settings)
-- [x] Create Layout wrapper component combining sidebar + horizontal menu + main content area
-- [x] Add dropdown menu functionality for module navigation
-- [ ] Implement responsive behavior (collapse sidebar on mobile)
+- [x] Create Sidebar component with main navigation (Dashboard, Import, Export, etc.)
+- [x] Create SecondaryPanel component that shows submenu when clicking nav items
+- [x] Create Layout wrapper combining sidebar + secondary panel + content area
+- [x] Add expand/collapse behavior for secondary panel
+- [ ] Implement responsive behavior (collapse panels on mobile)
 
 ## Acceptance
-- Sidebar shows dark navy background with white text and navigation items
-- Horizontal menu displays all 9 modules with hover states
-- Clicking module headers reveals dropdown menus with relevant options
-- Layout properly contains content area with both navigation systems visible
+- Sidebar shows dark navy background with icon-based navigation
+- Clicking a nav item (Import, Export, etc.) opens secondary panel with submenu
+- Secondary panel displays all relevant options for selected module
+- Layout properly adjusts content margin based on panel state
