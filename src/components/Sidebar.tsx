@@ -167,7 +167,7 @@ export function Sidebar({ onNavClick, activeNav }: SidebarProps) {
       </div>
 
       {/* Navigation */}
-      <nav className="flex-1 py-1 overflow-y-auto">
+      <nav className="flex-1 py-1">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeNav === item.id;
