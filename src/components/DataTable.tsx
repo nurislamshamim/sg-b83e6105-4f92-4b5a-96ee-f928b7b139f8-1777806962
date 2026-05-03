@@ -17,6 +17,7 @@ interface DataTableProps<T extends Record<string, any>> {
   data: T[];
   columns: Column[];
   title: string;
+  description?: string;
   searchPlaceholder?: string;
   onAdd?: () => void;
   addButtonLabel?: string;
@@ -26,6 +27,7 @@ export function DataTable<T extends Record<string, any>>({
   data,
   columns,
   title,
+  description,
   searchPlaceholder = "Search...",
   onAdd,
   addButtonLabel = "Add New",
@@ -44,6 +46,7 @@ export function DataTable<T extends Record<string, any>>({
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-lg font-semibold text-foreground">{title}</h1>
+          {description && <p className="text-xs text-muted-foreground mt-0.5">{description}</p>}
         </div>
         <div className="flex items-center gap-2">
           <Input
