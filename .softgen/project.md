@@ -1,7 +1,7 @@
-<![CDATA[# Freight Logistics Management System
+# Trans Link Solution Ltd - Freight Logistics Management System
 
 ## Vision
-A comprehensive freight forwarding and logistics management platform for handling import/export operations, bill of lading management, invoicing, and customs documentation. Combines enterprise-grade functionality with an intuitive interface inspired by TrackingTime's sidebar navigation and structured module organization.
+A comprehensive freight forwarding and logistics management platform for Trans Link Solution Ltd, handling import/export operations, bill of lading management, invoicing, and customs documentation. Combines enterprise-grade functionality with an intuitive interface inspired by TrackingTime's sidebar navigation and structured module organization.
 
 ## Design
 **Color Palette:**
@@ -19,7 +19,7 @@ A comprehensive freight forwarding and logistics management platform for handlin
 - Data/Tables: IBM Plex Mono, weight 400
 
 **Style Direction:**
-Professional enterprise freight platform with dual navigation (sidebar + horizontal menu bar), dashboard-centric layout, data visualization for shipment tracking, and comprehensive dropdown menus for deep feature access.
+Professional enterprise freight platform for Trans Link Solution Ltd with dual navigation (sidebar + horizontal menu bar), dashboard-centric layout, data visualization for shipment tracking, and comprehensive dropdown menus for deep feature access.
 
 ## Features
 - **Dashboard**: BoL count statistics (Air/Sea, Import/Export), quick links panel, recent activity

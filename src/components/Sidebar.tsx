@@ -1,18 +1,19 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { 
   Home, 
   Package, 
-  Send, 
+  Plane, 
   FileText, 
-  Settings as SettingsIcon,
-  Users,
-  BarChart3,
+  Settings as SettingsIcon, 
+  Users, 
+  BarChart3, 
   ShoppingCart,
-  ChevronRight,
   Search,
   Bell,
-  User
+  User,
+  ChevronRight
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -50,7 +51,7 @@ const navItems: NavItem[] = [
   {
     id: "export",
     label: "Export",
-    icon: Send,
+    icon: Plane,
     items: [
       { label: "E-Booking Entry", href: "/export/e-booking-entry" },
       { label: "E-Booking List", href: "/export/e-booking-list" },
@@ -152,9 +153,16 @@ export function Sidebar({ onNavClick, activeNav }: SidebarProps) {
   return (
     <aside className="fixed left-0 top-0 h-screen w-[144px] bg-primary text-primary-foreground flex flex-col border-r border-white/10">
       {/* Logo */}
-      <div className="p-4 border-b border-white/10">
+      <div className="p-3 border-b border-white/10">
         <Link href="/" className="block">
-          <h1 className="text-base font-semibold text-white">FreightFlow</h1>
+          <Image 
+            src="/logo.png" 
+            alt="Trans Link Solution Ltd" 
+            width={120}
+            height={40}
+            className="w-full h-auto"
+            priority
+          />
         </Link>
       </div>
 
