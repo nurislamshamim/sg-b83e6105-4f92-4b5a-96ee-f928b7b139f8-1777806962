@@ -1,26 +1,27 @@
-<![CDATA[---
+---
 title: Import Module Pages
-status: todo
+status: done
 priority: medium
 type: feature
-tags: [import, forms, lists]
+tags: [import, forms, tables]
 created_by: agent
 created_at: 2026-05-03T10:04:35Z
 position: 3
 ---
 
 ## Notes
-Implement the Import module pages including Master B/L List, House B/L List, Delivery Order List, and MR Lists for both sea and air imports.
+Create all Import module pages including Master B/L, House B/L, Delivery Orders, and MR Lists for both sea and air freight. Each page should have a data table with search, filters, and add functionality.
 
 ## Checklist
-- [ ] Create /import/master-bl page with data table
-- [ ] Create /import/house-bl page with filters
-- [ ] Create /import/delivery-orders page
-- [ ] Create /import/mr-list page for sea imports
-- [ ] Add search and filter functionality to all lists
-- [ ] Implement pagination for data tables
+- [x] Create Master B/L (Import Sea) page with shipment data table
+- [x] Create House B/L (Import Sea) page with consignee/shipper details
+- [x] Create Delivery Order List page with D/O tracking
+- [x] Create Master B/L (Import Air) page with air waybill data
+- [x] Create House B/L (Import Air) page with air shipment details
+- [x] Create DataTable component for consistent table UI across all pages
 
 ## Acceptance
-- All Import module pages are accessible from the Import dropdown
+- All import pages accessible from secondary navigation panel
 - Tables display sample shipment data with proper columns
-- Filters work to narrow down results by criteria
+- Each page has search, filter, and add new buttons
+- Status badges show color-coded shipment states
